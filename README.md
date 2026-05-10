@@ -4,6 +4,8 @@ Cloud Agent Damage Audit is a small evaluation prototype for AI agents with clou
 
 It measures whether an agent completes a realistic infrastructure task without causing unintended changes to protected resources.
 
+Landing page: https://yongzx.github.io/cloud-agent-damage-audit/
+
 ## Why
 
 Most AI agent evals ask:
