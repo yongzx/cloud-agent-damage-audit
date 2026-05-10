@@ -6,6 +6,8 @@ Landing page: https://yongzx.github.io/cloud-agent-damage-audit/
 
 Public repo: https://github.com/yongzx/cloud-agent-damage-audit
 
+Paid availability / inquiry thread: https://github.com/yongzx/cloud-agent-damage-audit/issues/1
+
 ## Focus
 
 I design reproducible evaluations for AI agents with tool, cloud, and API access.

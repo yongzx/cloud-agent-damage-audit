@@ -39,6 +39,8 @@ This is a good fit if your product or internal workflow lets an AI agent:
 
 Email: `zheng_xin_yong@brown.edu`
 
+Public inquiry thread: https://github.com/yongzx/cloud-agent-damage-audit/issues/1
+
 Suggested subject: `Cloud Agent Damage Audit pilot`
 
 Useful context to include:
