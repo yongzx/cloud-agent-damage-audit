@@ -8,6 +8,8 @@ Landing page: https://yongzx.github.io/cloud-agent-damage-audit/
 
 Paid pilot: [PAID_PILOT.md](PAID_PILOT.md)
 
+Contract portfolio: [CONTRACT_PORTFOLIO.md](CONTRACT_PORTFOLIO.md)
+
 ## Why
 
 Most AI agent evals ask:
