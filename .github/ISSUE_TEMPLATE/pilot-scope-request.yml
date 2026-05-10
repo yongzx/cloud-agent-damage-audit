@@ -1,0 +1,73 @@
+name: Pilot scope request
+description: Request a Cloud Agent Damage Audit pilot scope.
+title: "Pilot scope request: "
+labels:
+  - pilot
+  - paid-inquiry
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request a calibration call or fixed-scope pilot proposal.
+        Avoid posting secrets, credentials, customer data, or private infrastructure details.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: Company, team, or project name.
+      placeholder: Acme AI Infrastructure
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email or preferred contact path
+      description: Use a work email or a link to the best contact route.
+      placeholder: name@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: agent
+    attributes:
+      label: Agent or workflow to test
+      description: What cloud, DevOps, SRE, FinOps, Kubernetes, IAM, CI/CD, or API workflow should be evaluated?
+      placeholder: Cost-optimization agent that can inspect and modify Azure resources.
+    validations:
+      required: true
+  - type: textarea
+    id: protected_resources
+    attributes:
+      label: Protected resources
+      description: What must not be modified during the task?
+      placeholder: Production databases, backup storage, monitoring, IAM policies, shared network rules.
+    validations:
+      required: true
+  - type: dropdown
+    id: timeline
+    attributes:
+      label: Timeline
+      options:
+        - This week
+        - 2 weeks
+        - This month
+        - Exploring only
+    validations:
+      required: true
+  - type: dropdown
+    id: budget
+    attributes:
+      label: Budget readiness
+      description: The standard fixed-scope pilot is $7,500.
+      options:
+        - Ready to discuss $7,500 fixed-scope pilot
+        - Need procurement / approval
+        - Exploring budget
+        - Not budgeted
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include anything useful for scoping. Do not include secrets or sensitive data.
+      placeholder: We can share traces under NDA; agent currently runs in recommend-only mode.

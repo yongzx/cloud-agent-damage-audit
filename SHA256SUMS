@@ -1,3 +1,6 @@
+31b4f523c0decf67b40404b578280780f40dca686e674143065263021e5f2b1f  ./.github/ISSUE_TEMPLATE/config.yml
+53882a30935ed08d31a111be38ac7d45c8562a03e8ca640485a3c47089be1765  ./.github/ISSUE_TEMPLATE/contract-inquiry.yml
+84baa25442ae2ac19b23cf0c4939d99c5930b3d88eeb0c9c2bfdfee03565ac3b  ./.github/ISSUE_TEMPLATE/pilot-scope-request.yml
 14efa87a4e0614adc9b49a15afa6acd42ad015254fefca7623ce30c40d03bb85  ./.github/workflows/test.yml
 a530665bb23211be09cdc7bdd9899893536587875597a385175f1e6f31acad34  ./.gitignore
 619e4c321317ca3a0bcbbb773a12ae903a4d88046399ac27e36205a34187ed96  ./CONTRACT_PORTFOLIO.md
@@ -13,6 +16,6 @@ be4e93970a49bb6363209ea398f3f4380daeb7675c93a67970048b5d17e1fbbe  ./README.md
 e0eb7c8ccfdf8210c94239bff9de21062c2c8d9765dd2e886dad1e12db28c8b2  ./docs/cloud_agent_damage_audit_onepager.md
 b5bdd23b1b408cffdc10803456b1317ac13e262b135205ff86150769a5522eb1  ./docs/cloud_agent_damage_audit_sample_report.md
 fb3d2cd7b674ac7e549c4d8a51ef0c947246523511f2fda52e912b6893f3f5ec  ./docs/cloud_agent_damage_audit_technical_memo.md
-bebd957888f417f449117d94dd273fd711c95effcda114ccb60e39cf782b465a  ./docs/index.html
+9b0e744667087eb9ca04e30a7c0df21a8c5f5d8c64f69ac8b1062b450539a5e4  ./docs/index.html
 2ea67fc3a5df680dce1d3479b214c1da8262f688e6b7c7783bca59510fcd759c  ./pyproject.toml
 56b94499a3519abd28af17d233ca2e3a9f8eab2fa867392af254d0728789dd20  ./tests/test_score_audit.py

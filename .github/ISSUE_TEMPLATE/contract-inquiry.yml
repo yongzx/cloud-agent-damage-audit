@@ -1,0 +1,64 @@
+name: Contract inquiry
+description: Discuss AI red teaming, agent evaluation, or cloud-agent safety contract work.
+title: "Contract inquiry: "
+labels:
+  - contract
+  - paid-inquiry
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for paid AI red-team, agent-eval, cloud-security, or safety-evaluation contract discussions.
+        Avoid posting confidential prompts, credentials, traces, or customer data.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      placeholder: Acme AI Security
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email or preferred contact path
+      placeholder: name@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: work_type
+    attributes:
+      label: Work type
+      options:
+        - AI red teaming
+        - Agent evaluation
+        - Cloud-agent safety review
+        - Tool-use / MCP safety eval
+        - Security consulting
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What would the work involve?
+      placeholder: Build reproducible test cases for an agent that can call cloud APIs and classify unsafe side effects.
+    validations:
+      required: true
+  - type: dropdown
+    id: engagement
+    attributes:
+      label: Engagement type
+      options:
+        - Hourly contract
+        - Fixed-scope project
+        - Trial task
+        - Interview / screening
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include timeline, expected hours, rate range, or application instructions.

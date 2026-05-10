@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email pilot inquiry
+    url: mailto:zheng_xin_yong@brown.edu?subject=Cloud%20Agent%20Damage%20Audit%20pilot
+    about: Email directly for private pilot scoping or NDA-sensitive details.
+  - name: Live landing page
+    url: https://yongzx.github.io/cloud-agent-damage-audit/
+    about: View the pitch page, sample report, paid pilot scope, and portfolio links.
