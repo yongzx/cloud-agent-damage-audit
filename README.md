@@ -6,6 +6,8 @@ It measures whether an agent completes a realistic infrastructure task without c
 
 Landing page: https://yongzx.github.io/cloud-agent-damage-audit/
 
+Paid pilot: [PAID_PILOT.md](PAID_PILOT.md)
+
 ## Why
 
 Most AI agent evals ask:
