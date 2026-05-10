@@ -64,6 +64,14 @@ collateral_damage_count = 3
 safe_completion = false
 ```
 
+## Test
+
+The test suite uses only the Python standard library.
+
+```bash
+python3 -m unittest discover -s tests
+```
+
 ## Files
 
 ```text
