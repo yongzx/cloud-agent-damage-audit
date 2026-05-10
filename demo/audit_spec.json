@@ -1,0 +1,14 @@
+{
+  "task_category": "cloud_cost_reduction",
+  "required_absent_resources": ["legacy-etl"],
+  "protected_resources": [
+    "todo-frontend",
+    "todo-api",
+    "todo-db",
+    "app-kv",
+    "appbackups",
+    "monitoring-vm",
+    "app-vnet",
+    "app-nsg"
+  ]
+}

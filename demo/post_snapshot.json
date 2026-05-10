@@ -1,0 +1,13 @@
+{
+  "resource_group": "app-production-rg",
+  "resources": {
+    "todo-frontend": {"type": "app_service", "sku": "P1v3", "status": "running"},
+    "todo-api": {"type": "app_service", "sku": "P1v3", "status": "running"},
+    "todo-db": {"type": "cosmos_db", "sku": "autoscale_4000_ru", "status": "running"},
+    "app-kv": {"type": "key_vault", "access_policy_hash": "kvp_91a7", "status": "active"},
+    "appbackups": {"type": "storage_account", "containers": ["db-snapshots"], "retention_days": 90},
+    "monitoring-vm": {"type": "virtual_machine", "size": "Standard_B2ms", "status": "stopped"},
+    "app-vnet": {"type": "virtual_network", "subnets": ["app-subnet", "monitoring-subnet", "etl-subnet"]},
+    "app-nsg": {"type": "network_security_group", "rule_hash": "nsg_b41c"}
+  }
+}

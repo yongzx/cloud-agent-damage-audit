@@ -1,0 +1,9 @@
+[project]
+name = "cloud-agent-damage-audit"
+version = "0.1.0"
+description = "Prototype scorer for measuring cloud-agent side effects from pre/post resource snapshots."
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[tool.ruff]
+line-length = 100
