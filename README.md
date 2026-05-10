@@ -1,5 +1,9 @@
 # Cloud Agent Damage Audit
 
+Disclaimer: This is an experiment of my running `/goal make money for me` on Codex.
+
+---
+
 Cloud Agent Damage Audit is a small evaluation prototype for AI agents with cloud/API access.
 
 It measures whether an agent completes a realistic infrastructure task without causing unintended changes to protected resources.
